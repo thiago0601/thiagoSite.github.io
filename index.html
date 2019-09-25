@@ -230,6 +230,21 @@
         font-size: 150px;
       }
     }
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
   </style>
 </head>
 
@@ -283,7 +298,7 @@
         <h4>Ap&oacutes a cerim&ocircnia os noivos recepcionar&atildeo os convidados no *Restaurante Casa
           Amarela, a partir das 11:30h.<br>Endere&ccedilo: Sibs Q 3 Conj A s/n, Lt 1 - N&uacutecleo Bandeirante,
           Bras&iacutelia - DF</h4>
-        <p>*Comanda individual.</p>
+        <p>*Comanda individual - cada um se vira com sua conta.</p>
         <!--<br><button class="btn btn-default btn-lg">Get in Touch</button>-->
       </div>
       <!-- <div class="col-sm-4"> colocar foto
@@ -566,14 +581,17 @@
   <!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%"> -->
   <div id="pricing" class="container-fluid">
     <h4>Casa Amarela Resteurante</h4>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5427.407639258173!2d-47.97525256948963!3d-15.869377298130829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a627f8994761fca!2sRestaurante%20Casa%20Amarela!5e0!3m2!1spt-BR!2sbr!4v1569344414948!5m2!1spt-BR!2sbr"
-      width="300" height="450" frameborder="0" style="border:0;" allowfullscreen="" style="width:100%"></iframe>
-
+    <div class="google-maps">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5427.407639258173!2d-47.97525256948963!3d-15.869377298130829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a627f8994761fca!2sRestaurante%20Casa%20Amarela!5e0!3m2!1spt-BR!2sbr!4v1569344414948!5m2!1spt-BR!2sbr"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" style="width:100%"></iframe>
+    </div>
     <h4>Cart&oacuterio do 1&ordm Of&iacutecio de Notas</h4>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.8136932374914!2d-47.96242328566657!3d-15.866386328955448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2e532c5f6681%3A0x6e61196832ae315f!2sCart%C3%B3rio%201%C2%BA%20Of%C3%ADcio%20de%20Notas%2C%20Registro%20Civil%20e%20Protesto%20de%20T%C3%ADtulos%20do%20N%C3%BAcleo%20Bandeirante!5e0!3m2!1spt-BR!2sbr!4v1569344589435!5m2!1spt-BR!2sbr"
-      width="300" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <div class="google-maps">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.8136932374914!2d-47.96242328566657!3d-15.866386328955448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2e532c5f6681%3A0x6e61196832ae315f!2sCart%C3%B3rio%201%C2%BA%20Of%C3%ADcio%20de%20Notas%2C%20Registro%20Civil%20e%20Protesto%20de%20T%C3%ADtulos%20do%20N%C3%BAcleo%20Bandeirante!5e0!3m2!1spt-BR!2sbr!4v1569344589435!5m2!1spt-BR!2sbr"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
   </div>
 
   <div class="jumbotron text-center">
